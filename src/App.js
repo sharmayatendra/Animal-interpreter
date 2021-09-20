@@ -21,7 +21,7 @@ export default function App() {
 
   function animalInputHandler(event) {
     var userInput = event.target.value;
-    var meaning = animalDictionary[usrInput];
+    var meaning = animalDictionary[userInput];
     if (meaning === undefined) {
       meaning = "Oops! we don't have this in our database";
     }
